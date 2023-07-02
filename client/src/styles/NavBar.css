@@ -1,0 +1,71 @@
+.NavBar{
+    background-color: #FFF;
+    display: flex;
+    padding: 16px 100px;
+    height: 60px;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.menuContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 350px;
+}
+
+.href {
+    padding: 0;
+    color: darkgrey;
+    text-decoration: none;
+    margin-left: 10px;
+    display: flex;
+    font-weight: 580;
+}
+.href:hover {
+    color: deepskyblue;
+}
+.href.active {
+    color: deepskyblue;
+    outline: none;
+}
+
+
+.notification{
+    background-color: #F3F3F3;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-image: url('../res/NavBar/notification.png');
+    background-position: center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.line{
+    margin:0 20px;
+    height: 40px;
+    width: 3px;
+    border-radius: 7px;
+    background-color: #F3F3F3;
+}
+
+.enter{
+    background-color: #F3F3F3;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-image: url('../res/NavBar/profile.png');
+    background-position: center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    margin-right: 12px;
+}
+
+.youInLogin{
+    margin-top: 15px;
+    margin-left: 12px;
+    width:20px;
+    height: 20px;
+    background-image: url('../res/NavBar/down.png');
+    background-size: cover;
+}
