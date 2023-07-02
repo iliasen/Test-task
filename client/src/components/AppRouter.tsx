@@ -20,7 +20,7 @@ const AppRouter = () => {
                 <Route key={path} path={path} element={<Component />}/>
             ))}
             <Route path="*" element={<Navigate to={LOGIN_ROUTE} replace />} />
-            {/*возращает страницу магазина если проприсан левый URL*/}
+            {/*возращает начальную страницу если проприсан левый URL*/}
         </Routes>
     )
 }
